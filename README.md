@@ -1,69 +1,221 @@
-**Beauty in Black**  
-**Beleza negra. Presença inconfundível.**  
-**O Beauty in Black é um projeto conceitual de website para um salão de beleza especializado na valorização da beleza negra, das texturas naturais e da identidade de cada pessoa. A proposta combina uma estética editorial sofisticada com uma experiência digital acolhedora, destacando serviços, identidade da marca e agendamento de atendimentos.**  
-**O projeto foi desenvolvido para compor um portfólio de desenvolvimento web, demonstrando a criação de uma presença digital para um negócio local.**  
-**✨ Funcionalidades**  
-**· Página inicial de impacto: apresentação da marca com destaque visual e chamada para agendamento.**  
-**· Navegação por seções: acesso rápido ao início, serviços, essência da marca, galeria e contato.**  
-**· Apresentação de serviços: seção dedicada a cabelos naturais, tranças e penteados, tratamentos capilares e styling.**  
-**· Galeria visual interativa: imagens que podem ser ampliadas em uma visualização sobreposta (lightbox).**  
-**· Manifesto da marca: conteúdo dedicado à representatividade, identidade e valorização da beleza negra.**  
-**· Agendamento pelo WhatsApp: chamadas para ação que direcionam o visitante para uma conversa com o salão.**  
-**· Menu responsivo: navegação adaptada para dispositivos móveis.**  
-**· Cabeçalho dinâmico: alteração visual conforme a página é rolada.**  
-**· Acessibilidade básica: rótulos para controles interativos e textos alternativos em imagens relevantes.**  
-**🎨 Conceito visual**  
-**A identidade visual busca transmitir sofisticação, autenticidade, confiança e representatividade. A direção de arte utiliza imagens editoriais, tipografia expressiva, contrastes marcantes e espaços bem definidos para construir uma experiência premium sem perder o acolhimento.**  
-**O conteúdo foi escrito em português e a interface foi pensada para apresentar os serviços de forma clara, fortalecer a personalidade da marca e facilitar o contato.**  
-**🛠️ Tecnologias utilizadas**  
-**· Next.js — framework React para a aplicação web.**  
-**· React — construção da interface por componentes.**  
-**· TypeScript — tipagem estática.**  
-**· Tailwind CSS — infraestrutura de estilos e integração CSS.**  
-**· Lucide React — ícones da interface.**  
-**· pnpm — gerenciamento de pacotes.**  
-**🚀 Como executar o projeto**  
-**Pré-requisitos**  
-**Antes de começar, tenha instalado:**  
-**· Node.js em uma versão compatível com o Next.js utilizado.**  
-**· pnpm.**  
-**Instalação**  
-**1. Clone o repositório:**  
-**2. git clone URL_DO_SEU_REPOSITORIO**  
-**3. Entre na pasta do projeto:**  
-**4. cd site-beauty-in-black**  
-**5. Instale as dependências:**  
-**6. pnpm install**  
-**7. Inicie o servidor de desenvolvimento:**  
-**8. pnpm dev**  
-**9. Abra http://localhost:3000 no navegador.**  
-**Gerar a versão de produção**  
-**Para verificar se o projeto pode ser compilado para produção:**  
-**pnpm build**  
-**Depois da compilação, execute a versão de produção localmente com:**  
-**pnpm start**  
-**⚙️ Configuração do WhatsApp**  
-**Os botões de agendamento usam a variável de ambiente NEXT_PUBLIC_WHATSAPP_NUMBER.**  
-**Crie um arquivo .env.local na raiz do projeto e adicione:**  
-**NEXT_PUBLIC_WHATSAPP_NUMBER=55DDDNUMERO**  
-**Substitua 55DDDNUMERO pelo número do salão, incluindo código do país e DDD, somente com números. Por exemplo, use o formato 55 + DDD + número, sem espaços, parênteses ou hífens.**  
-**Se a variável não for configurada, o projeto utiliza um número demonstrativo definido no código. Antes de publicar ou apresentar o site a um cliente, substitua esse valor por um número autorizado.**  
-**📁 Estrutura do projeto**  
-**site-beauty-in-black/├── app/│   ├── globals.css       # Estilos globais e identidade visual│   ├── layout.tsx        # Layout raiz e metadados da aplicação│   └── page.tsx          # Página principal e suas seções├── components/│   └── ui/│       └── button.tsx    # Componente de botão├── lib/│   └── utils.ts          # Funções utilitárias├── public/               # Ícones e recursos estáticos├── next.config.mjs       # Configuração do Next.js├── package.json          # Scripts e dependências├── pnpm-lock.yaml        # Versões resolvidas das dependências└── tsconfig.json         # Configuração do TypeScript**  
-**📌 Observações**  
-**· Este é um projeto conceitual para portfólio. Nome, textos de contato e endereço são demonstrativos e devem ser ajustados para uso comercial.**  
-**· As fotografias são carregadas de URLs externas; sua disponibilidade depende dos respectivos servidores.**  
-**· O link do Instagram é demonstrativo e pode ser substituído pelo perfil oficial do estabelecimento.**  
-**· O site apresenta chamadas para contato e agendamento via WhatsApp, mas não inclui um sistema próprio de reservas ou gestão de horários.**  
-**💡 Possíveis melhorias futuras**  
-**· Adicionar uma página individual para cada serviço.**  
-**· Integrar formulário de contato e sistema de agendamento com disponibilidade real.**  
-**· Incluir depoimentos de clientes e avaliações.**  
-**· Otimizar o carregamento e a entrega das imagens.**  
-**· Adicionar testes automatizados e aprimorar a auditoria de acessibilidade.**  
-**· Configurar metadados para compartilhamento em redes sociais e SEO local.**  
-**👩‍💻 Sobre o projeto**  
-**O Beauty in Black foi criado como exercício de desenvolvimento de uma experiência web para um negócio local, unindo identidade visual, organização de conteúdo, responsividade e caminhos claros para conversão.**  
-**Status: projeto conceitual de portfólio.**  
-   
-**Desenvolvido com foco em beleza, identidade e experiência digital.**  
+# Beauty in Black 🖤
+
+> **Beleza negra. Presença inconfundível.**
+
+O **Beauty in Black** é um projeto conceitual de website para um salão de beleza especializado na valorização da beleza negra, das texturas naturais e da identidade de cada mulher.
+
+O projeto combina uma estética editorial sofisticada com uma experiência digital acolhedora, destacando serviços, representatividade e identidade visual. A proposta é demonstrar como um site pode fortalecer a presença digital de um negócio local, transmitir seus valores e facilitar o contato com potenciais clientes.
+
+---
+
+## ✨ Sobre o projeto
+
+O Beauty in Black foi desenvolvido como um projeto de portfólio de desenvolvimento web, com foco na criação de uma experiência visual marcante, na organização do conteúdo e na comunicação da identidade de uma marca.
+
+Mais do que apresentar serviços, o site busca transmitir uma mensagem de autenticidade, autoestima e valorização da beleza negra.
+
+### 🎯 Objetivos
+
+- Criar uma presença digital sofisticada para um salão de beleza.
+- Valorizar a representatividade e a diversidade da beleza negra.
+- Apresentar os serviços de forma visual e organizada.
+- Facilitar o contato e o agendamento pelo WhatsApp.
+- Desenvolver uma interface intuitiva, moderna e adaptável a diferentes dispositivos.
+
+---
+
+## 🎨 Identidade visual
+
+A direção visual do projeto foi pensada para transmitir **sofisticação, confiança, autenticidade e representatividade**.
+
+A experiência combina tipografia expressiva, imagens editoriais, contrastes marcantes e espaços bem definidos para criar uma atmosfera premium, sem perder a sensação de acolhimento.
+
+**Conceitos-chave:**
+- Beleza e identidade.
+- Elegância contemporânea.
+- Representatividade negra.
+- Experiência acolhedora.
+- Comunicação visual marcante.
+
+---
+
+## 🚀 Funcionalidades
+
+- **Página inicial:** apresentação da marca com destaque para sua identidade e proposta.
+- **Navegação por seções:** acesso rápido ao início, serviços, essência da marca, galeria e contato.
+- **Apresentação de serviços:** área dedicada aos cuidados e às experiências oferecidas pelo salão.
+- **Seção institucional:** conteúdo sobre os valores, a história e o propósito da marca.
+- **Manifesto da marca:** mensagem sobre identidade, diversidade e valorização da beleza negra.
+- **Agendamento pelo WhatsApp:** chamadas para ação que direcionam o visitante para uma conversa.
+- **Layout responsivo:** adaptação da interface para diferentes tamanhos de tela.
+- **Elementos visuais personalizados:** ícones, imagens e componentes integrados à identidade do projeto.
+- **Rodapé informativo:** navegação complementar e canais de contato demonstrativos.
+
+---
+
+## 🛠️ Tecnologias utilizadas
+
+| Tecnologia | Aplicação |
+|---|---|
+| [Next.js](https://nextjs.org/) | Framework para desenvolvimento da aplicação web |
+| [React](https://react.dev/) | Construção da interface por componentes |
+| [TypeScript](https://www.typescriptlang.org/) | Tipagem estática e organização do código |
+| [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS) | Estilização e identidade visual |
+| [Tailwind CSS](https://tailwindcss.com/) | Ferramentas de estilização disponíveis no projeto |
+| [Lucide React](https://lucide.dev/) | Ícones da interface |
+| [pnpm](https://pnpm.io/) | Gerenciamento de dependências |
+
+---
+
+## 📂 Estrutura do projeto
+
+```text
+beautyInBlack/
+├── app/
+│   ├── globals.css
+│   ├── layout.tsx
+│   └── page.tsx
+├── components/
+│   └── ui/
+│       └── button.tsx
+├── lib/
+│   └── utils.ts
+├── public/
+│   ├── apple-icon.png
+│   ├── icon-dark-32x32.png
+│   ├── icon-light-32x32.png
+│   └── icon.svg
+├── .gitignore
+├── components.json
+├── next.config.mjs
+├── package.json
+├── pnpm-lock.yaml
+├── pnpm-workspace.yaml
+├── postcss.config.mjs
+├── tsconfig.json
+└── README.md
+```
+
+---
+
+## 💻 Como executar o projeto
+
+### Pré-requisitos
+
+Antes de começar, instale:
+
+- [Node.js](https://nodejs.org/)
+- [pnpm](https://pnpm.io/installation)
+
+### 1. Clone o repositório
+
+```bash
+git clone https://github.com/LudCodes/beauty-in-black.git
+```
+
+### 2. Acesse a pasta do projeto
+
+```bash
+cd beauty-in-black
+```
+
+### 3. Instale as dependências
+
+```bash
+pnpm install
+```
+
+### 4. Inicie o servidor de desenvolvimento
+
+```bash
+pnpm dev
+```
+
+### 5. Acesse no navegador
+
+Abra o endereço:
+
+[http://localhost:3000](http://localhost:3000)
+
+### 6. Gere a versão de produção
+
+Para verificar a compilação do projeto:
+
+```bash
+pnpm build
+```
+
+Se a compilação for concluída, execute a versão de produção localmente com:
+
+```bash
+pnpm start
+```
+
+---
+
+## ⚙️ Configuração do WhatsApp
+
+Os botões de agendamento utilizam a variável de ambiente `NEXT_PUBLIC_WHATSAPP_NUMBER`.
+
+Para configurar o número desejado, crie um arquivo `.env.local` na raiz do projeto:
+
+```env
+NEXT_PUBLIC_WHATSAPP_NUMBER=5511999999999
+```
+
+Substitua o valor pelo número autorizado do salão, incluindo código do país e DDD, sem espaços, parênteses ou hífens.
+
+**Importante:** o número acima é apenas demonstrativo. Antes de utilizar o site comercialmente, configure o contato correto.
+
+Não envie arquivos com credenciais ou informações privadas para o GitHub.
+
+---
+
+## 📱 Experiência do usuário
+
+A estrutura do site prioriza uma navegação clara, conteúdo organizado e chamadas para ação visíveis.
+
+A experiência foi pensada para que o visitante consiga:
+
+1. Conhecer a proposta e a identidade do salão.
+2. Explorar os serviços disponíveis.
+3. Compreender os valores da marca.
+4. Encontrar os canais de contato.
+5. Iniciar uma conversa para consultar os serviços e agendamentos.
+
+---
+
+## 🔮 Melhorias futuras
+
+Entre as possíveis evoluções do projeto estão:
+
+- Implementação de uma galeria com visualização ampliada das imagens.
+- Criação de páginas individuais para os serviços.
+- Integração com um sistema de agendamento com disponibilidade real.
+- Inclusão de depoimentos e avaliações de clientes.
+- Otimização de imagens e desempenho.
+- Aprimoramento da acessibilidade e da navegação por teclado.
+- Configuração de SEO local e metadados para compartilhamento.
+- Publicação de uma demonstração online.
+
+---
+
+## 📌 Status do projeto
+
+**Status:** projeto conceitual de portfólio.
+
+O site utiliza informações demonstrativas para representar a presença digital de um salão de beleza. Nome, contatos, endereço e links devem ser adaptados caso o projeto seja utilizado por um estabelecimento real.
+
+---
+
+## 👩🏽‍💻 Desenvolvido por
+
+**LudCodes**
+
+Projeto desenvolvido com foco em desenvolvimento web, identidade visual e experiência digital.
+
+[GitHub — LudCodes](https://github.com/LudCodes)
+
+---
+
+*Beauty in Black — Beleza, identidade e poder.*
