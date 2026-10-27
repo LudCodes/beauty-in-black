@@ -1,111 +1,47 @@
-# Beauty in Black 🖤
+# ✦ Beauty in Black
 
-> **Beleza negra. Presença inconfundível.**
+**Beleza negra. Presença inconfundível.**
 
-O **Beauty in Black** é um projeto conceitual de website para um salão de beleza especializado na valorização da beleza negra, das texturas naturais e da identidade de cada mulher.
+O Beauty in Black é um projeto conceitual de site para um salão de beleza especializado na valorização da beleza negra, dos cabelos naturais e da identidade feminina.
 
-O projeto combina uma estética editorial sofisticada com uma experiência digital acolhedora, destacando serviços, representatividade e identidade visual. A proposta é demonstrar como um site pode fortalecer a presença digital de um negócio local, transmitir seus valores e facilitar o contato com potenciais clientes.
-
----
+Desenvolvido como projeto de portfólio, o site busca unir estética, experiência do usuário e funcionalidade em uma experiência digital elegante, acolhedora e visualmente marcante.
 
 ## ✨ Sobre o projeto
 
-O Beauty in Black foi desenvolvido como um projeto de portfólio de desenvolvimento web, com foco na criação de uma experiência visual marcante, na organização do conteúdo e na comunicação da identidade de uma marca.
+A proposta do Beauty in Black é criar uma presença digital que celebre a beleza negra e transmita os valores de identidade, autoestima, cuidado e autenticidade.
 
-Mais do que apresentar serviços, o site busca transmitir uma mensagem de autenticidade, autoestima e valorização da beleza negra.
+A identidade visual combina tons escuros, dourado e elementos editoriais para construir uma experiência sofisticada, com destaque para imagens, tipografia e conteúdo.
 
-### 🎯 Objetivos
+## 🎯 Funcionalidades
 
-- Criar uma presença digital sofisticada para um salão de beleza.
-- Valorizar a representatividade e a diversidade da beleza negra.
-- Apresentar os serviços de forma visual e organizada.
-- Facilitar o contato e o agendamento pelo WhatsApp.
-- Desenvolver uma interface intuitiva, moderna e adaptável a diferentes dispositivos.
-
----
-
-## 🎨 Identidade visual
-
-A direção visual do projeto foi pensada para transmitir **sofisticação, confiança, autenticidade e representatividade**.
-
-A experiência combina tipografia expressiva, imagens editoriais, contrastes marcantes e espaços bem definidos para criar uma atmosfera premium, sem perder a sensação de acolhimento.
-
-**Conceitos-chave:**
-- Beleza e identidade.
-- Elegância contemporânea.
-- Representatividade negra.
-- Experiência acolhedora.
-- Comunicação visual marcante.
-
----
-
-## 🚀 Funcionalidades
-
-- **Página inicial:** apresentação da marca com destaque para sua identidade e proposta.
-- **Navegação por seções:** acesso rápido ao início, serviços, essência da marca, galeria e contato.
-- **Apresentação de serviços:** área dedicada aos cuidados e às experiências oferecidas pelo salão.
-- **Seção institucional:** conteúdo sobre os valores, a história e o propósito da marca.
-- **Manifesto da marca:** mensagem sobre identidade, diversidade e valorização da beleza negra.
-- **Agendamento pelo WhatsApp:** chamadas para ação que direcionam o visitante para uma conversa.
+- **Página inicial:** apresentação da marca com destaque visual e chamadas para ação.
+- **Nossa essência:** seção institucional sobre o propósito e os valores do salão.
+- **Serviços:** apresentação dos serviços de beleza e cuidados capilares.
+- **Galeria:** seleção visual de referências de beleza, cabelos e estilos.
+- **Navegação interativa:** menu com acesso às principais seções do site.
+- **Agendamento pelo WhatsApp:** links para iniciar uma conversa e consultar informações sobre os serviços.
 - **Layout responsivo:** adaptação da interface para diferentes tamanhos de tela.
-- **Elementos visuais personalizados:** ícones, imagens e componentes integrados à identidade do projeto.
-- **Rodapé informativo:** navegação complementar e canais de contato demonstrativos.
-
----
+- **Animações e efeitos visuais:** interações sutis para enriquecer a experiência de navegação.
 
 ## 🛠️ Tecnologias utilizadas
 
-| Tecnologia | Aplicação |
-|---|---|
-| [Next.js](https://nextjs.org/) | Framework para desenvolvimento da aplicação web |
-| [React](https://react.dev/) | Construção da interface por componentes |
-| [TypeScript](https://www.typescriptlang.org/) | Tipagem estática e organização do código |
-| [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS) | Estilização e identidade visual |
-| [Tailwind CSS](https://tailwindcss.com/) | Ferramentas de estilização disponíveis no projeto |
-| [Lucide React](https://lucide.dev/) | Ícones da interface |
-| [pnpm](https://pnpm.io/) | Gerenciamento de dependências |
+- **Next.js 16** — framework React para desenvolvimento web.
+- **React 19** — construção da interface e gerenciamento de interações.
+- **TypeScript** — tipagem estática para maior organização do código.
+- **Tailwind CSS 4** — suporte à estilização.
+- **CSS personalizado** — identidade visual, layout, responsividade e animações.
+- **Lucide React** — biblioteca de ícones.
+- **pnpm** — gerenciamento de dependências.
+- **Vercel Analytics** — suporte à análise de acesso na versão de produção.
 
----
-
-## 📂 Estrutura do projeto
-
-```text
-beautyInBlack/
-├── app/
-│   ├── globals.css
-│   ├── layout.tsx
-│   └── page.tsx
-├── components/
-│   └── ui/
-│       └── button.tsx
-├── lib/
-│   └── utils.ts
-├── public/
-│   ├── apple-icon.png
-│   ├── icon-dark-32x32.png
-│   ├── icon-light-32x32.png
-│   └── icon.svg
-├── .gitignore
-├── components.json
-├── next.config.mjs
-├── package.json
-├── pnpm-lock.yaml
-├── pnpm-workspace.yaml
-├── postcss.config.mjs
-├── tsconfig.json
-└── README.md
-```
-
----
-
-## 💻 Como executar o projeto
+## 🚀 Como executar o projeto
 
 ### Pré-requisitos
 
-Antes de começar, instale:
+Antes de começar, você precisa ter instalado:
 
-- [Node.js](https://nodejs.org/)
-- [pnpm](https://pnpm.io/installation)
+- Node.js
+- pnpm
 
 ### 1. Clone o repositório
 
@@ -113,7 +49,7 @@ Antes de começar, instale:
 git clone https://github.com/LudCodes/beauty-in-black.git
 ```
 
-### 2. Acesse a pasta do projeto
+### 2. Entre na pasta do projeto
 
 ```bash
 cd beauty-in-black
@@ -133,89 +69,80 @@ pnpm dev
 
 ### 5. Acesse no navegador
 
-Abra o endereço:
+Abra:
 
-[http://localhost:3000](http://localhost:3000)
-
-### 6. Gere a versão de produção
-
-Para verificar a compilação do projeto:
-
-```bash
-pnpm build
+```text
+http://localhost:3000
 ```
 
-Se a compilação for concluída, execute a versão de produção localmente com:
+Para encerrar o servidor, volte ao terminal e pressione `Ctrl + C`.
 
-```bash
-pnpm start
-```
+## 📱 Configuração do WhatsApp
 
----
+O site utiliza links do WhatsApp para facilitar o contato e as solicitações de agendamento.
 
-## ⚙️ Configuração do WhatsApp
-
-Os botões de agendamento utilizam a variável de ambiente `NEXT_PUBLIC_WHATSAPP_NUMBER`.
-
-Para configurar o número desejado, crie um arquivo `.env.local` na raiz do projeto:
+Por padrão, o projeto possui um número de exemplo. Para configurar o seu, crie um arquivo `.env.local` na raiz do projeto e adicione:
 
 ```env
 NEXT_PUBLIC_WHATSAPP_NUMBER=5511999999999
 ```
 
-Substitua o valor pelo número autorizado do salão, incluindo código do país e DDD, sem espaços, parênteses ou hífens.
+Substitua o número de exemplo pelo número desejado, utilizando o código do país e o DDD, sem espaços, parênteses ou hífens.
 
-**Importante:** o número acima é apenas demonstrativo. Antes de utilizar o site comercialmente, configure o contato correto.
+Depois de alterar a variável, reinicie o servidor de desenvolvimento.
 
-Não envie arquivos com credenciais ou informações privadas para o GitHub.
+## 📂 Estrutura principal
 
----
+```text
+beauty-in-black/
+├── app/
+│   ├── globals.css
+│   ├── layout.tsx
+│   └── page.tsx
+├── components/
+│   └── ui/
+├── lib/
+│   └── utils.ts
+├── public/
+├── package.json
+├── pnpm-lock.yaml
+├── pnpm-workspace.yaml
+├── next.config.mjs
+└── tsconfig.json
+```
 
-## 📱 Experiência do usuário
+## 🎨 Conceito visual
 
-A estrutura do site prioriza uma navegação clara, conteúdo organizado e chamadas para ação visíveis.
+A identidade visual foi pensada para transmitir sofisticação, confiança e valorização da beleza negra.
 
-A experiência foi pensada para que o visitante consiga:
+**Paleta de cores:**
+- Preto profundo — elegância e presença.
+- Tons de café — acolhimento e conexão.
+- Dourado — sofisticação e destaque.
+- Tons de creme e champanhe — equilíbrio e legibilidade.
 
-1. Conhecer a proposta e a identidade do salão.
-2. Explorar os serviços disponíveis.
-3. Compreender os valores da marca.
-4. Encontrar os canais de contato.
-5. Iniciar uma conversa para consultar os serviços e agendamentos.
+A composição utiliza imagens editoriais, tipografia serifada nos títulos e elementos minimalistas para reforçar a personalidade da marca.
 
----
+## 📌 Objetivos do projeto
 
-## 🔮 Melhorias futuras
+Este projeto foi desenvolvido para praticar e demonstrar conhecimentos em desenvolvimento front-end, incluindo:
 
-Entre as possíveis evoluções do projeto estão:
-
-- Implementação de uma galeria com visualização ampliada das imagens.
-- Criação de páginas individuais para os serviços.
-- Integração com um sistema de agendamento com disponibilidade real.
-- Inclusão de depoimentos e avaliações de clientes.
-- Otimização de imagens e desempenho.
-- Aprimoramento da acessibilidade e da navegação por teclado.
-- Configuração de SEO local e metadados para compartilhamento.
-- Publicação de uma demonstração online.
-
----
-
-## 📌 Status do projeto
-
-**Status:** projeto conceitual de portfólio.
-
-O site utiliza informações demonstrativas para representar a presença digital de um salão de beleza. Nome, contatos, endereço e links devem ser adaptados caso o projeto seja utilizado por um estabelecimento real.
-
----
+- Construção de interfaces com React e Next.js.
+- Organização de componentes e conteúdo.
+- Estilização com CSS.
+- Criação de layouts responsivos.
+- Implementação de interações com JavaScript e React.
+- Integração de chamadas para ação com o WhatsApp.
+- Aplicação de princípios de experiência do usuário e identidade visual.
 
 ## 👩🏽‍💻 Desenvolvido por
 
-**LudCodes**
+**Ludmila Alves — LudCodes**
 
-Projeto desenvolvido com foco em desenvolvimento web, identidade visual e experiência digital.
+Desenvolvedora Web em formação, com interesse em desenvolvimento front-end, interfaces digitais e experiência do usuário.
 
-[GitHub — LudCodes](https://github.com/LudCodes)
+- GitHub: [@LudCodes](https://github.com/LudCodes)
 
 ---
 
-*Beauty in Black — Beleza, identidade e poder.*
+*Beauty in Black — Sua beleza. Suas raízes. Seu poder.*
