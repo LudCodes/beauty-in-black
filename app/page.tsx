@@ -13,25 +13,38 @@ const images = {
   portrait: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/pexels-speakmediauganda-37600597-nvGDPznUNEehIcoFKwv2lTodNy0Mvw.jpg',
   circle: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/pexels-heyy-kazz-705792-18459701-X7LOluEjkRGHoOqf4Hw5YamFCBtVG7.jpg',
   closeup: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/pexels-kwesiblaq-12293132-zSWnRtSGkj5wTInHpx0ePsYAZMYPY2.jpg',
+  essence: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/img1-YajupK2PCSYdc8w7b0sorZBFernUMd.jpg',
+  service2: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/img2-QpiiF27hEDUYbqlnzoBFZkhaMNQmci.jpg',
+  service3: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/img3-e3rpNzV1useudkVsBc4eaSmsc4PaV4.jpg',
+  service4: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/img4-IYVFHVaUTaTQKOxDkrZ1OZrgmLJ0B7.jpg',
+  service5: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/img5-00qkt1DXyfIs04WTsZ08EEEYiidUAc.jpg',
+  editorial: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/pexels-dylannhendricks-16349429-uKCULfYl0RyeiOePUWhaY9pskgFAgM.jpg',
+  neon: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/pexels-paiva-31751104-Z3FujAe9mSt5KQhF5iOBmj5Te6GBof.jpg',
+  color: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/pexels-oscar-calstrom-428110439-18854500-oTLWTopavu4EPmGIv0dKWklCl2mRMJ.jpg',
+  duo: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/pexels-mateus-oliveira-2150975619-32114212-U9hb8tYm41zaCHFh648fDIgnmuWCDa.jpg',
+  blue: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/pexels-vkmoraesph-103845317-17576657-GPjuhCAMikL8y4MyBVTmnDUi2u5ndo.jpg',
+  pink: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/pexels-marinaphotos-16849818-M1INKjzOY8S6Hq883GwMll1gnz07Xc.jpg',
 }
 
 const services = [
-  { number: '01', title: 'Cabelos naturais', description: 'Tratamentos, finalização e definição para celebrar a sua textura.', image: images.portrait },
-  { number: '02', title: 'Tranças & penteados', description: 'Box braids, twists e criações para momentos que pedem presença.', image: images.braids },
-  { number: '03', title: 'Tratamentos capilares', description: 'Cuidado personalizado para devolver força, brilho e movimento aos fios.', image: images.closeup },
-  { number: '04', title: 'Styling & transformação', description: 'Cortes, modelagem e looks pensados para expressar quem você é.', image: images.group },
+  { number: '01', title: 'Cabelos naturais', description: 'Tratamentos, finalização e definição para celebrar a sua textura.', image: images.service2 },
+  { number: '02', title: 'Tranças & penteados', description: 'Box braids, twists e criações para momentos que pedem presença.', image: images.service3 },
+  { number: '03', title: 'Tratamentos capilares', description: 'Cuidado personalizado para devolver força, brilho e movimento aos fios.', image: images.service4 },
+  { number: '04', title: 'Styling & transformação', description: 'Cortes, modelagem e looks pensados para expressar quem você é.', image: images.service5 },
 ]
 
 const gallery = [
-  { image: images.closeup, alt: 'Retrato editorial de uma pessoa negra', label: 'Presence' },
-  { image: images.braids, alt: 'Detalhe de tranças e miçangas em cabelo negro', label: 'Roots' },
-  { image: images.portrait, alt: 'Pessoa negra com tranças longas', label: 'Texture' },
-  { image: images.circle, alt: 'Grupo de pessoas negras reunidas em composição circular', label: 'Expression' },
   { image: images.group, alt: 'Grupo de mulheres negras com diferentes penteados', label: 'Glow' },
+  { image: images.editorial, alt: 'Close editorial de uma pessoa negra com dreadlocks', label: 'Depth' },
+  { image: images.neon, alt: 'Retrato de uma pessoa negra com tranças cor-de-rosa', label: 'Bold' },
+  { image: images.color, alt: 'Retrato de uma mulher negra com maquiagem azul', label: 'Color' },
+  { image: images.duo, alt: 'Duas pessoas negras sorrindo juntas', label: 'Connection' },
+  { image: images.blue, alt: 'Retrato de uma mulher negra com cabelo azul', label: 'Energy' },
+  { image: images.pink, alt: 'Retrato de uma pessoa negra com cabelo rosa', label: 'Attitude' },
 ]
 
 function BrandMark() {
-  return <a href="#inicio" className="brand-mark" aria-label="Beauty in Black, início"><span>BEAUTY</span><span>IN BLACK</span><small>BEAUTY <i>•</i> IDENTITY <i>•</i> POWER</small></a>
+  return <a href="#inicio" className="brand-mark" aria-label="Beauty in Black, início"><span>BEAUTY IN BLACK</span><small>BEAUTY <i>•</i> IDENTITY <i>•</i> POWER</small></a>
 }
 
 function SectionIntro({ eyebrow, title, children, light = false }: { eyebrow: string; title: React.ReactNode; children?: React.ReactNode; light?: boolean }) {
@@ -60,7 +73,7 @@ export default function Page() {
     <header className={`site-header ${scrolled ? 'site-header--scrolled' : ''}`}>
       <BrandMark />
       <nav className={menuOpen ? 'site-nav site-nav--open' : 'site-nav'} aria-label="Navegação principal">
-        {[['Início', '#inicio'], ['Serviços', '#servicos'], ['Nossa essência', '#essencia'], ['Galeria', '#galeria'], ['Contato', '#contato']].map(([label, href]) => <a key={href} href={href} onClick={closeMenu}>{label}</a>)}
+        {[['Início', '#inicio'], ['Nossa essência', '#essencia'], ['Serviços', '#servicos'], ['Galeria', '#galeria'], ['Contato', '#contato']].map(([label, href]) => <a key={href} href={href} onClick={closeMenu}>{label}</a>)}
         <a href={whatsappUrl} target="_blank" rel="noreferrer" className="nav-booking">Agende sua experiência <ArrowUpRight aria-hidden="true" /></a>
       </nav>
       <button className="menu-toggle" aria-label={menuOpen ? 'Fechar menu' : 'Abrir menu'} aria-expanded={menuOpen} onClick={() => setMenuOpen(!menuOpen)}>{menuOpen ? <X /> : <Menu />}</button>
